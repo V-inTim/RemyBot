@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "friendlicbot"
+version = "0.1.0"
+description = "Friendlic Bot"
+authors = ["V-inTim <vinichuk.timofey@mail.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+aiogram = "^3.13.1"
+flake8 = "^7.1.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
